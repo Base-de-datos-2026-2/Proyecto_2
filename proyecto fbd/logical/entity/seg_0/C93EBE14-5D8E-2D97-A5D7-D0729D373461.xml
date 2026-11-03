@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C93EBE14-5D8E-2D97-A5D7-D0729D373461" name="Viaje">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:22:41 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_viaje" id="D8CC4F7F-7E7E-DA42-90FF-A3FE9BDBA15E">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:22:47 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_hora_salida" id="FFFB7795-28E3-CA69-4DA0-F7361B4983D8">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:22:48 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_hora_llegada" id="62BBA935-1A66-922E-0D4A-1BAB9BFA5175">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 16:38:57 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="punto_origen" id="6906C966-D36A-9F02-6052-DA748EBC5DBE">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:22:51 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ruta_general" id="1618BF54-E5AB-77C2-8B46-3D491C617264">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:22:55 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="distancia_km" id="2797A48D-A469-34F1-0B95-A939ACE71576">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 16:39:49 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tarifa" id="D6CCD15E-9CED-F248-7FA4-FA05ECD363EF">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:22:59 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="53DBC477-4020-B6EE-CDDA-9AD5A8CF1A89">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:23:03 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<constraintName>chk_viaje_estado</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="Cancelado" description=""/>
+<valueDef value="Completado" description=""/>
+<valueDef value="En curso" description=""/>
+<valueDef value="Programado" description=""/>
+</listOfValues>
+<defaultValue>Programado</defaultValue>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa_vehiculo" id="63EC99CF-DFE0-74E6-5C13-122D21079933">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:23:06 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_conductor1" id="597F82F6-3155-16DE-18A8-54B4FF8557C3">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 16:49:56 UTC</createdTime>
+<generatorID>E9C3A004-7E14-FA2B-4CCF-D7E4C8686370</generatorID>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<referedAttribute>CC54CE29-8A3B-3919-BF7F-207F30B937DA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa" id="CA730925-2F7C-DBB0-3122-93AADAC114B3">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 16:50:32 UTC</createdTime>
+<generatorID>40C13F64-90B4-5DDC-FB4E-3ECF21C62B0F</generatorID>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<referedAttribute>BB9C620D-6B03-3E08-AD5F-6DE4597A72D6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cupos_disponible" id="C7E84A6E-C019-4927-1DB0-1DAB0CD590A9">
+<createdBy>cesar</createdBy>
+<createdTime>2026-10-30 13:58:25 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="83544912-BD73-79B6-38D7-8AE134297028" name="Viaje PK">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 16:50:48 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D8CC4F7F-7E7E-DA42-90FF-A3FE9BDBA15E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

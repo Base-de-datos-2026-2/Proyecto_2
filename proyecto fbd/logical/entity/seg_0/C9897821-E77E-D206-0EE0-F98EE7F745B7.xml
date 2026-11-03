@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9897821-E77E-D206-0EE0-F98EE7F745B7" name="Parada">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:23:31 UTC</createdTime>
+<ownerDesignName>grafico</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_parada" id="5965FFEC-7FB9-85EC-4ED7-FF3B549A1F5D">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:23:37 UTC</createdTime>
+<ownerDesignName>grafico</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicacion" id="84AD891B-D07B-F8EB-B98B-6D5D9D2EBC4F">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:23:43 UTC</createdTime>
+<ownerDesignName>grafico</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="localidad" id="80F8AF73-FE7B-E487-2751-260A9729F6FF">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:23:45 UTC</createdTime>
+<ownerDesignName>grafico</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_viaje" id="25188247-E991-0BD2-83DD-DFACF902E2CC">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:23:48 UTC</createdTime>
+<ownerDesignName>grafico</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_viaje1" id="064796B5-F496-F929-FA7C-BC1F34A562B5">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 16:50:49 UTC</createdTime>
+<generatorID>12A1FAB8-0C7F-C6C3-5015-D911CD917A35</generatorID>
+<ownerDesignName>grafico</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<referedAttribute>D8CC4F7F-7E7E-DA42-90FF-A3FE9BDBA15E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35F50B3C-8D50-5013-ACE6-1E206F0CDE7A" name="Parada PK">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 16:50:54 UTC</createdTime>
+<ownerDesignName>grafico</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5965FFEC-7FB9-85EC-4ED7-FF3B549A1F5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

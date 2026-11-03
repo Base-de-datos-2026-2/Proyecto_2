@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5152790F-F9D8-AC48-B8AA-516895F77952" name="Vehículo">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:21:48 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="placa" id="BB9C620D-6B03-3E08-AD5F-6DE4597A72D6">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:21:54 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="D9ED6C3F-25FA-129A-4664-65A38A0888F9">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:21:59 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="4C63D6A3-81D7-7DB6-4CD7-418C8EAF73CA">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:22:09 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio" id="FF0ADD5E-0C95-B88D-BE5E-8A7EA37D94B2">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:22:12 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="38B720C7-F663-69C6-E00F-DF908CD39E54">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:22:15 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cupos" id="0EFCC6C3-9741-ED2C-19A6-FF3B82708707">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:22:19 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_conductor" id="4CB07400-7347-DA9E-4962-62E71C32376B">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:22:22 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_conductor1" id="BD1AEDCE-623A-65F0-6A79-C199086FB9A1">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 16:49:56 UTC</createdTime>
+<generatorID>D075AEF2-E13E-761F-AA2F-B46A6A4BC274</generatorID>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<referedAttribute>CC54CE29-8A3B-3919-BF7F-207F30B937DA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A816629-13A5-FCA7-26D2-F7C2F715C386" name="Vehículo PK">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 16:50:31 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB9C620D-6B03-3E08-AD5F-6DE4597A72D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

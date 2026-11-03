@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7ACB429-7F44-FFA0-074D-E537C24019A7" name="SolicitudReserva">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:24:02 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_solicitud" id="A3AAB91A-497F-D098-71DA-43E73257235B">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:24:08 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_solicitud" id="31947C80-7F24-96A5-2361-84C638AEA6A1">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:24:16 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<listOfValues>
+<valueDef value="Aceptado" description=""/>
+<valueDef value="Cancelado" description=""/>
+<valueDef value="Pendiente" description=""/>
+<valueDef value="Rechazado" description=""/>
+</listOfValues>
+<defaultValue>Pendiente</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pasajero" id="6925BABE-637B-1247-2DCA-59416049A15C">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:24:19 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_parada_recogida" id="2421C555-EF1F-C3A1-A1EB-B0BCBC3C35D5">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 14:24:29 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pasajero1" id="BBD4B99B-B2D9-BFF5-42BE-4D4A695F57A6">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 16:50:02 UTC</createdTime>
+<generatorID>AEE71F9F-484B-A06F-59C8-7CDCAA5C712F</generatorID>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<referedAttribute>50C83E79-6397-6814-C485-F29B9615D139</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_parada" id="EAC71297-7C82-E714-9C2E-C2242453F964">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 16:50:55 UTC</createdTime>
+<generatorID>E10A401E-02EF-9112-A502-5DF2DD95B761</generatorID>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<referedAttribute>5965FFEC-7FB9-85EC-4ED7-FF3B549A1F5D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B7E4FE0-B61F-C6E8-27B7-7B30F3DCECEB" name="SolicitudReserva PK">
+<createdBy>cesar</createdBy>
+<createdTime>2026-09-10 16:50:08 UTC</createdTime>
+<ownerDesignName>proyecto fbd</ownerDesignName>
+<engineerTo>
+<item key="6D9B6784-CA7F-64AE-D93C-D2B44005EA16" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3AAB91A-497F-D098-71DA-43E73257235B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
